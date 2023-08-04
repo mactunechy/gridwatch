@@ -65,10 +65,11 @@ const About: React.FC<Props> = ({}) => {
             webhook integration, the platform unlocks a wealth of potential
             applications. For starters, it empowers the creation of WhatsApp
             notification bots that can efficiently dispatch power cut schedules
-            to users' phones, keeping them abreast of any changes as they occur.
+            to users&apos; phones, keeping them abreast of any changes as they
+            occur.
           </p>
           <p className="text-2xl text-[#545050] my-10">
-            But the potential doesn't stop there. GridWatch opens doors to
+            But the potential doesn&apos;t stop there. GridWatch opens doors to
             diverse notification systems, from email alerts to push
             notifications on mobile apps, ensuring that users receive immediate
             updates wherever they may be. The vision goes even further,
@@ -86,7 +87,7 @@ const About: React.FC<Props> = ({}) => {
             className="object-contain rounded-full"
           />
           <div>
-            <h2 className="text-4xl">Hi, I'm Dellan.</h2>
+            <h2 className="text-4xl">Hi, I&apos;m Dellan.</h2>
             <h2 className="text-2xl text-gray-500 text-bold">
               Fullstack Sofware Engineer
             </h2>
