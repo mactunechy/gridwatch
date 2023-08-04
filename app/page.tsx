@@ -27,9 +27,9 @@ export default function Home() {
         <p className="text-2xl text-[#545050] text-center">
           A South African cutting-edge platform that offers real-time webhook
           notifications for power outages in your area. With its powerful
-          webhook integration, GridWatch keeps you informed whenever there's a
-          disruption in your electricity supply, enabling you to take prompt
-          actions and stay prepared for any potential challenges.
+          webhook integration, GridWatch keeps you informed whenever
+          there&apos;s a disruption in your electricity supply, enabling you to
+          take prompt actions and stay prepared for any potential challenges.
         </p>
         <p className="mt-4 text-md text-[#4C5AD7]">
           Never be caught off guard by power cuts again with GridWatch by your
