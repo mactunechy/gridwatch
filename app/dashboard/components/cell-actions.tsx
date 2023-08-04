@@ -29,7 +29,7 @@ const CellActions: React.FC<CellActionsProps> = ({ data }) => {
   const params = useParams();
 
   const onCopy = (id: string) => {
-    navigator.clipboard.writeText(data.url);
+    navigator.clipboard.writeText(data.webhookUrl);
     toast.success("Webhook copied to clipboard.");
   };
 
