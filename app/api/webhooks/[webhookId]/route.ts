@@ -32,17 +32,18 @@ export async function PATCH(
 
     if (!userId) return new NextResponse("Unauthorized", { status: 401 });
 
-    const { url, area } = body;
+    const { url, area_name } = body;
 
     if (!url) return new NextResponse("Url is required", { status: 400 });
 
-    if (!area) return new NextResponse("Area is required", { status: 400 });
+    if (!area_name)
+      return new NextResponse("Area name is required", { status: 400 });
 
     const user = await currentUser();
 
     const webhook = await updateOrCreateWebhook({
       webhookUrl: url,
-      area,
+      area_name,
       id: params.webhookId,
       email: user?.emailAddresses[0].emailAddress as string,
     });
