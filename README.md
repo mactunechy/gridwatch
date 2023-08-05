@@ -8,7 +8,7 @@ Frustrated by the lack of readily available APIs offering real-time updates on p
 
 Then, a spark of inspiration struck: why not create a Platform that leverages the power of webhooks to deliver real-time notifications of power outages in the area? And so, GridWatch was born, with an ambitious aim to revolutionize the way people stay informed about electricity disruptions.
 
-#Posibilities
+# Posibilities
 
 The driving force behind GridWatch was to open up a world of possibilities for developers and users alike. Armed with a real-time webhook integration, the platform unlocks a wealth of potential applications. For starters, it empowers the creation of WhatsApp notification bots that can efficiently dispatch power cut schedules to users' phones, keeping them abreast of any changes as they occur.
 
